@@ -13,7 +13,7 @@ and optionally copy a specific result to the clipboard.
 
 - Alfred Version 2.
 - The Alfred [Powerpack](http://www.alfredapp.com/powerpack/).
-- [Dig.alfredworkflow](https://raw.github.com/phallstrom/AlfredDig/master/Dig.alfredworkflow]
+- [Dig.alfredworkflow](https://raw.github.com/phallstrom/AlfredDig/master/Dig.alfredworkflow).
 
 ## Usage
 
