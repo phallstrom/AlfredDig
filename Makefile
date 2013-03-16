@@ -11,7 +11,7 @@ $(EXTENSION): $(SOURCE_FILES) VERSION
 	zip -T $(EXTENSION) $(PKG_FILES)
 
 VERSION:
-	sed -i '' -e "s/{BUNDLEID}/$(BUNDLEID)/" info.plist
+	touch info.plist
 
 clean:
 	rm -rf $(EXTENSION)
