@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-  <string>{BUNDLEID}</string>
+  <string>pjkh.dig</string>
 	<key>connections</key>
 	<dict>
 		<key>8901B669-3C82-4B63-99EC-00C8185D4952</key>
