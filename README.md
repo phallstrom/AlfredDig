@@ -23,6 +23,10 @@ Type `dig` in Alfred and follow it's instructions.
 
 Having a problem?  [Open an issue](https://github.com/phallstrom/AlfredDig/issues) and I'll see what I can do.
 
+## Contributions & Thanks
+
+- aquadan
+
 ## License:
 
 (The MIT License)
