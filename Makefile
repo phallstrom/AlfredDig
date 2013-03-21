@@ -6,7 +6,6 @@ PKG_FILES = $(SOURCE_FILES)
 
 WORKFLOW_DIR = $(HOME)/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows
 INSTALL_DIR = `grep -l -- ">$(BUNDLEID)<" "$(WORKFLOW_DIR)"/*/info.plist | sed 's/\/info.plist//'`
-INSTALL_DIR = /tmp/installdir
 
 all: $(EXTENSION)
 
