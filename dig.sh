@@ -29,9 +29,10 @@ else
 
     if [[ -z "$answer" ]] 
     then
-      answer=$adata
+      answer=${adata%.}
       title=$answer
     else
+      answer=${answer%.}
       title="$adata $answer"
     fi
 
