@@ -25,16 +25,12 @@ else
     answers_found='yes'
     # pjkh.com.   751 IN  A 74.207.251.140
     # pjkh.com.   683 IN  MX  10 mx2.emailsrvr.com.
-    read question ttl class atype adata answer <<< $line
+    read question ttl class atype answer <<< $line
 
-    if [[ -z "$answer" ]] 
-    then
-      answer=${adata%.}
-      title=$answer
-    else
-      answer=${answer%.}
-      title="$adata $answer"
-    fi
+    [[ ! "$answer" =~ *\ * ]] && answer=${answer%.}
+    title=$answer
+
+    [[ "$atype" = "MX" ]] && answer=${answer#[0-9]*\ }
 
     if [[ -e "icons/$atype.png" ]] 
     then

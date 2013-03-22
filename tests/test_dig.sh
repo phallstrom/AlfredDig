@@ -41,13 +41,20 @@ it_reverse_lookups_ipv4_address() {
   result=$(bash dig.sh '127.0.0.1 ')
   [[ "$result" =~ uid=.dig_answer ]]
   [[ "$result" =~ ptr.png ]]
-  [[ "$result" =~ title.localhost\. ]]
+  [[ "$result" =~ title.localhost ]]
 }
 
 it_reverse_lookups_ipv6_address() {
   result=$(bash dig.sh '::1 ')
   [[ "$result" =~ uid=.dig_answer ]]
   [[ "$result" =~ ptr.png ]]
-  [[ "$result" =~ title.localhost\. ]]
+  [[ "$result" =~ title.localhost ]]
+}
+
+it_strips_priority_from_mx_records() {
+  result=$(bash dig.sh 'pjkh.com mx')
+  [[ "$result" =~ uid=.dig_answer ]]
+  [[ "$result" =~ arg=\'mx2.emailsrvr.com\' ]]
+  [[ "$result" =~ title.10\ mx2.emailsrvr.com ]]
 }
 

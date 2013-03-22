@@ -1,6 +1,6 @@
 EXTENSION = Dig.alfredworkflow
 BUNDLEID = pjkh.dig
-VERSION = 1.1
+VERSION = 1.2
 SOURCE_FILES = dig.sh icon.png icons info.plist
 PKG_FILES = $(SOURCE_FILES)
 
