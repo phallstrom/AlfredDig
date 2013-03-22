@@ -26,6 +26,7 @@ Having a problem?  [Open an issue](https://github.com/phallstrom/AlfredDig/issue
 ## Contributions & Thanks
 
 - aquadan
+- isometry
 
 ## License:
 
