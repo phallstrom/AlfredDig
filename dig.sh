@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo '<?xml version="1.0"?>'
 echo '<items>'
@@ -21,7 +21,7 @@ else
   fi
 
   while read line
-  do  
+  do
     answers_found='yes'
     # pjkh.com.   751 IN  A 74.207.251.140
     # pjkh.com.   683 IN  MX  10 mx2.emailsrvr.com.
@@ -32,7 +32,7 @@ else
 
     [[ "$atype" = "MX" ]] && answer=${answer#[0-9]*\ }
 
-    if [[ -e "icons/$atype.png" ]] 
+    if [[ -e "icons/$atype.png" ]]
     then
       icon="icons/$atype.png"
       subtitle="$question TTL=$ttl"
