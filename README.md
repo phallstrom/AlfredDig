@@ -1,6 +1,6 @@
 # Alfred Workflow - Dig
 
-A workflow for [Alfred](http://www.alfredapp.com/) to perform DNS lookups using [dig](http://en.wikipedia.org/wiki/Dig_(command\))
+A workflow for [Alfred](https://www.alfredapp.com/) to perform DNS lookups using [dig][dig]
 and optionally copy a specific result to the clipboard.
 
 ![Example 1](https://raw.github.com/phallstrom/AlfredDig/master/screenshots/1.png)
@@ -11,7 +11,7 @@ and optionally copy a specific result to the clipboard.
 
 ## Requirements
 
-- Alfred Version 2.
+- Alfred Version 2+.
 - The Alfred [Powerpack](http://www.alfredapp.com/powerpack/).
 - [Dig.alfredworkflow](https://raw.github.com/phallstrom/AlfredDig/master/Dig.alfredworkflow).
 
@@ -21,7 +21,7 @@ Type `dig` in Alfred and follow it's instructions.
 
 ## Help
 
-Having a problem?  [Open an issue](https://github.com/phallstrom/AlfredDig/issues) and I'll see what I can do.
+Having a problem? [Open an issue](https://github.com/phallstrom/AlfredDig/issues) and I'll see what I can do.
 
 ## Contributions & Thanks
 
@@ -52,3 +52,5 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[dig]: https://en.wikipedia.org/wiki/Dig_(command)
